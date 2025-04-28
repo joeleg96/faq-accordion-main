@@ -4,8 +4,6 @@
     --purple-100: hsl(275, 100%, 97%);
     --purple-600: hsl(292, 16%, 49%);
     --purple-950: hsl(292, 42%, 14%);
-
-
 }
 
 * {
@@ -33,18 +31,26 @@ body {
 
 .title-container {
     display: flex;
+    align-items: center;
+}
+
+.star-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 h1 {
     font-size: 2rem;
     color: var(--purple-950);
+    margin-left: 1.5rem;
 }
 
 h2{
     width: 14rem;
     color: var(--purple-950);
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: 1.5rem;
 }
 
