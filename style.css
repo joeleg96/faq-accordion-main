@@ -54,9 +54,19 @@ h2{
     margin-left: 1.5rem;
 }
 
+h2:hover {
+    color: var(--purple-600);
+}
+
 .btn-container {
     display: flex;
     flex-direction: column;
+}
+
+hr {
+    border-color: var(--purple-100);
+    border-width: 1px;
+    width: 90%;
 }
 
 button {

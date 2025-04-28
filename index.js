@@ -56,3 +56,36 @@ $(".icon").on("click", function(event){
     }
 })
 
+$("h2").on("click", function(event) {
+    var questionID = event.target.id;
+
+    switch (questionID) {
+        case "question-one":
+            $("#" +"one-plus").toggle(".hide");
+            $("#" +"one-minus").toggle(".hide");
+            $("#" +"one-p").toggle(".hide");
+        break;
+
+        case "question-two":
+            $("#" +"two-plus").toggle(".hide");
+            $("#" +"two-minus").toggle(".hide");
+            $("#" +"two-p").toggle(".hide");
+        break;
+
+        case "question-three":
+            $("#" +"three-plus").toggle(".hide");
+            $("#" +"three-minus").toggle(".hide");
+            $("#" +"three-p").toggle(".hide");
+        break;
+
+        case "question-four":
+            $("#" +"four-plus").toggle(".hide");
+            $("#" +"four-minus").toggle(".hide");
+            $("#" +"four-p").toggle(".hide");
+        break;
+    
+        default:
+            console.log(questionID);
+            break;
+    }
+})
