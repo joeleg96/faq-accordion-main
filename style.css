@@ -18,8 +18,13 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--purple-100);
+}
+
+.background-img-container {
+   background-image: url(./assets/images/background-pattern-desktop.svg);
+   height: 25rem;
 }
 
 .faq-container {
@@ -27,6 +32,7 @@ body {
     width: 20.4375rem;
     background-color: var(--white);
     border-radius: .825rem;
+    margin-top: -5rem;
 }
 
 .title-container {
